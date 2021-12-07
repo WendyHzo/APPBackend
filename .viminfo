@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :x!
-|2,0,1638836732,,"x!"
+|2,0,1638851409,,"x!"
 
 # Search String History (newest to oldest):
 
@@ -25,26 +25,83 @@
 # Registers:
 
 # File marks:
-'0  23  0  ~/.profile
-|4,48,23,0,1638836732,"~/.profile"
-'1  24  0  ~/.profile
-|4,49,24,0,1638836693,"~/.profile"
-'2  24  0  ~/.profile
-|4,50,24,0,1638836693,"~/.profile"
+'0  7  0  ~/.gitignore
+|4,48,7,0,1638851409,"~/.gitignore"
+'1  5  11  ~/.gitignore
+|4,49,5,11,1638847413,"~/.gitignore"
+'2  5  11  ~/.gitignore
+|4,50,5,11,1638847413,"~/.gitignore"
+'3  23  0  ~/.profile
+|4,51,23,0,1638836732,"~/.profile"
+'4  24  0  ~/.profile
+|4,52,24,0,1638836693,"~/.profile"
+'5  24  0  ~/.profile
+|4,53,24,0,1638836693,"~/.profile"
 
 # Jumplist (newest first):
+-'  7  0  ~/.gitignore
+|4,39,7,0,1638851409,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1638851365,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1638847413,"~/.gitignore"
+-'  5  11  ~/.gitignore
+|4,39,5,11,1638847413,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1638846393,"~/.gitignore"
+-'  23  0  ~/.profile
+|4,39,23,0,1638836732,"~/.profile"
+-'  23  0  ~/.profile
+|4,39,23,0,1638836732,"~/.profile"
+-'  23  0  ~/.profile
+|4,39,23,0,1638836732,"~/.profile"
 -'  23  0  ~/.profile
 |4,39,23,0,1638836732,"~/.profile"
 -'  24  0  ~/.profile
 |4,39,24,0,1638836715,"~/.profile"
+-'  24  0  ~/.profile
+|4,39,24,0,1638836715,"~/.profile"
+-'  24  0  ~/.profile
+|4,39,24,0,1638836715,"~/.profile"
+-'  24  0  ~/.profile
+|4,39,24,0,1638836715,"~/.profile"
+-'  24  0  ~/.profile
+|4,39,24,0,1638836693,"~/.profile"
+-'  24  0  ~/.profile
+|4,39,24,0,1638836693,"~/.profile"
+-'  24  0  ~/.profile
+|4,39,24,0,1638836693,"~/.profile"
 -'  24  0  ~/.profile
 |4,39,24,0,1638836693,"~/.profile"
 -'  1  0  ~/.profile
 |4,39,1,0,1638836643,"~/.profile"
 -'  1  0  ~/.profile
 |4,39,1,0,1638836643,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1638836643,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1638836643,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1638836643,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1638836643,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1638836643,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1638836643,"~/.profile"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1638851399	0
+	"	7	0
+	^	7	0
+	.	6	0
+	+	4	11
+	+	2	0
+	+	5	11
+	+	7	0
+	+	6	0
 
 > ~/.profile
 	*	1638836729	0

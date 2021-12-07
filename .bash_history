@@ -274,3 +274,100 @@ cd backend
 python local 3.9.4
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 poetry new poetry-demo
+sudo vim .profile 
+source .profile 
+sudo vim .profile 
+source .profile 
+poetry --version 
+pyenv --version
+clear
+poetry init
+echo "Ejemplo de backend usando FastAPI" >> README.md 
+git init
+git add README.md
+git add pyproject.toml
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:WendyHzo/APPBackend.git
+git branch --set-upstream-to=origin/main main
+git pull origin main --rebase
+git push -u origin main
+echo "Ejemplo de backend usando FastAPI" >> README.md 
+git init
+git add README.md
+git add pyproject.toml
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:WendyHzo/APPBackend.git
+git branch --set-upstream-to=origin/main main
+git push -u origin main
+git pull origin main --rebase
+git push -u origin main
+login
+git login
+git ining 
+git login
+cleand
+clean
+clear
+echo "Ejercicio de backend usando FastAPI" >> README.md 
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/WendyHzo/APPBackend
+git branch --set-upstream-to=origin/main main
+git pull origin main --rebase
+ssh-keygen
+cat id_rsa.pub
+git pull origin main --rebase
+ssh-keygen -t rsa -b 4096 -C “wendyherazojf@unimagdalena.edu.co”
+git pull origin main --rebase
+# start the ssh-agent in the background
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+$ ssh-add ~/.ssh/id_ed25519
+ssh-add ~/.ssh/id_ed25519
+poetry --v
+pyenv --V
+pyenv --version
+git pull origin main --rebase
+echo "Ejemplo de backend usando FastAPI" >> README.md 
+git init
+git add README.md
+git add pyproject.toml
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/WendyHzo/appBackend.git
+git remote set-url origin https://github.com/WendyHzo/appBackend.git
+ls
+git remote add origin https://github.com/WendyHzo/appBackend.git
+git remote set-url origin https://github.com/WendyHzo/appBackend.git
+git branch --set-upstream-to=origin/main main
+git pull origin main --rebase
+git add .
+git pull origin main --rebase
+git commit -m "first commit"
+git pull origin main --rebase
+git push -u origin main
+poetry add fastapi uvicorn[standard] psycopg2 SQLAlchemy alembic
+sudo apt install libpq-dev python3-dev
+sudo apt install build-essential
+sudo apt-get install python3-psycopg2
+poetry add fastapi uvicorn[standard] psycopg2 SQLAlchemy alembic
+sudo apt-get install postgresql-libs postgresql-dev gcc python3-dev musl-dev
+poetry add fastapi uvicorn[standard] psycopg2 SQLAlchemy alembic
+sudo apt update
+sudo apt-get install postgresql postgresql-contrib
+sudo apt-get install libpq-dev
+sudo apt-get install python-dev
+sudo apt-get install python-pip
+pip2 install psycopg2-binary
+You've installed the python-dev libraries for Python 3. Your psycopg2 install is using python 2.7
+
+Make sure you've installed python3-pip
+sudo apt-get install python3-pip
+poetry add fastapi uvicorn[standard] psycopg2 SQLAlchemy alembic 
+.vscode
+.gitignore
+vim .gitignore
