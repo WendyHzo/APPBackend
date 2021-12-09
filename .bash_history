@@ -371,3 +371,15 @@ poetry add fastapi uvicorn[standard] psycopg2 SQLAlchemy alembic
 .vscode
 .gitignore
 vim .gitignore
+vim  .gitignore
+git add poetry.lock pyproject.toml .gitignore
+git commit -m "agregados los paquetes requeridos para el proyecto"
+git push 
+mkdir app
+touch app/__init__.py
+touch app/main.py
+code .
+docker run --name fasapi-postgres -e POSTGRES_USER=fastapi -e POSTGRES_DB=minca -e POSTGRES_PASSWORD=123123 -p 5432:5432 -d postgres
+git add .
+git commit -m "configuración de la aplicación "
+git push
