@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-crud"
+version = "0.1.0"
+description = ""
+authors = ["wendyhzo <wendyherazojf@unimagdalena.edu.co>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.70.0"
+uvicorn = {extras = ["standard"], version = "^0.16.0"}
+psycopg2 = "^2.9.2"
+SQLAlchemy = "^1.4.28"
+alembic = "^1.7.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
