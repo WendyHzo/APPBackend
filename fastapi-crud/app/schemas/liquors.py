@@ -3,21 +3,21 @@ from typing import Optional
 from pydantic import BaseModel, AnyHttpUrl
  
 # Shared properties
-class PlaceBase(BaseModel):
-   name: Optional[str] = None
-   description: Optional[str] = None
-   image: Optional[AnyHttpUrl]
+class liquorsBase(BaseModel):
+   nombre: Optional[str] = None
+   precio: Optional[int] = None
+   imagen: Optional[AnyHttpUrl]
  
-# Properties to receive on place creation
-class PlaceCreate(PlaceBase):
+# Properties to receive on liquors creation
+class liquorsCreate(liquorsBase):
    pass
  
-# Properties to receive on place update
-class PlaceUpdate(PlaceBase):
+# Properties to receive on liquors update
+class liquorsUpdate(liquorsBase):
    pass
  
 # Properties shared by models stored in DB
-class PlaceInDBBase(PlaceBase):
+class liquorsInDBBase(liquorsBase):
    id: int
    #owner_id: int
  
@@ -25,9 +25,9 @@ class PlaceInDBBase(PlaceBase):
        orm_mode = True
  
 # Properties to return to client
-class Place(PlaceInDBBase):
+class liquors(liquorsInDBBase):
    pass
  
 # Properties properties stored in DB
-class PlaceInDB(PlaceInDBBase):
+class liquorsInDB(liquorsInDBBase):
    pass
