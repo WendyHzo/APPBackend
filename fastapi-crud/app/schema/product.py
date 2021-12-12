@@ -1,5 +1,4 @@
 from typing import Optional
- 
 from pydantic import BaseModel, AnyHttpUrl
  
 # Shared properties
@@ -9,25 +8,25 @@ class liquorsBase(BaseModel):
    imagen: Optional[AnyHttpUrl]
  
 # Properties to receive on liquors creation
-class liquorsCreate(liquorsBase):
-   pass
- 
+class ProductCreate(ProductBase):
+    pass
+    
 # Properties to receive on liquors update
-class liquorsUpdate(liquorsBase):
-   pass
+class ProductUpdate(ProductBase):
+    pass
  
 # Properties shared by models stored in DB
-class liquorsInDBBase(liquorsBase):
-   id: int
+class ProductInDBBase(ProductBase):
+    id: int
    #owner_id: int
  
    class Config:
        orm_mode = True
  
 # Properties to return to client
-class liquors(liquorsInDBBase):
-   pass
+class Product(ProductInDBBase):
+    pass
  
 # Properties properties stored in DB
-class liquorsInDB(liquorsInDBBase):
-   pass
+class ProductInDB(ProductInDBBase):
+    pass

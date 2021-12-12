@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String
-from app.database.base_class import Base
+from app.database.session import Base
  
-class licoreria(Base):
+class Liquors(Base):
    __tablename__ = "licores"
    id = Column(Integer, primary_key=True, index=True)
    nombre = Column(String, index=True)
