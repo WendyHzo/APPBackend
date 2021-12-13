@@ -1,2 +1,3 @@
+ 
 from app.database.base_class import Base
-from app.models.liquors import licoreria
+from app.models.product import product

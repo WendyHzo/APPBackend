@@ -20,7 +20,6 @@ fileConfig(config.config_file_name)
 from app.database.base import Base
 from app.core.config import settings
 config.set_main_option("sqlalchemy.url", settings.SQLALCHEMY_DATABASE_URI)
-
 target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,
